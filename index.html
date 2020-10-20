@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="loan.css">
+    <title>Loan Calculator</title>
+</head>
+<body>
+    <div class="container-fluid p-4 full_page">
+        <div class="container p-3 loan_box">
+            <h3 class="text-center p-3">Loan Calculator</h3>
+            <input class="p-2" type="number" id="loanAmount" placeholder="Loan Amount">
+            <input class="p-2" type="number" id="annualInterest" placeholder="Annual Interest">
+            <input class="p-2" type="number" id="repaymentYears" placeholder="Repayment Years">
+            <div class="bg-dark text-light text-center p-2 calculate">
+                Calculate
+            </div>
+            <!-- LOADER -->
+            <div class="text-center mt-5 loader">
+                <div class="spinner-border" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+            <!-- RESULTS -->
+            <div class="results">
+                <h5 class="text-center">Results</h5>
+                <div>
+                    Monthly Payment: 
+                    <input class="monthlyPayment">
+                </div>
+                <div>
+                    Total Payment: 
+                    <input class="totalPayment">
+                </div>
+                <div>
+                    Total Interest: 
+                    <input class="totalInterest">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="loan.js"></script>
+</body>
+</html>

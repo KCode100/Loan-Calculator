@@ -1,0 +1,44 @@
+.full_page{
+    min-height: 100vh;
+    background-color: #353945;
+}
+
+.loan_box{
+    max-width: 600px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+}
+
+div.calculate{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.results h5{
+    margin: 20px;
+}
+
+.results div{
+    background-color: #e9eaef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+    overflow: hidden;
+}
+
+div input{
+    display: inline-block;
+}
+
+.loader,
+.results{
+    display: none;
+}
